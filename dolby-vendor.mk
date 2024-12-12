@@ -52,4 +52,5 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     XiaomiDolby \
-    RemovePackagesDolby
+    RemovePackagesDolby \
+    DSPVolumeSynchronizer \
