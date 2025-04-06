@@ -48,6 +48,9 @@
         <library name="dap_sw" path="libswdap.so"/>
         <library name="dap_hw" path="libhwdap.so"/>
         <!-- DOLBY END -->
+        <!--Spatializer-->
+        <library name="spatializer" path="libtsrspatializer.so"/>
+        <!-- Spatializer END-->
         <!--DOLBY VQE-->
         <library names="vqe" path="libswvqe.so"/>
         <!-- DOLBY END-->
@@ -108,6 +111,9 @@
             <libhw library="dap_hw" uuid="a0c30891-8246-4aef-b8ad-d53e26da0253"/>
         </effectProxy>
         <!-- DOLBY END -->
+        <!--Spatializer-->
+        <effect name="spatializer" library="spatializer" uuid="93f04452-e4fe-41cc-91fa-e475b6d1d6a0"/>
+        <!-- Spatializer-->
         <!--DOLBY VQE-->
         <effect name="vqe" library="vqe" uuid="64a0f614-7fa4-48b8-b081-d59dc954616f"/>
         <!-- DOLBY END-->
