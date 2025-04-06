@@ -1,7 +1,6 @@
 # vendor dolby
 
-OnePlus Dolby to include in custom ROM builds.
-Taken from OnePlus 9R
+XiaomiDolby to include in custom ROM builds.
 
 ### How to use?
 
@@ -35,10 +34,8 @@ Changing the := to += in the device tree, will make, so manifests wont be overwr
 If you face any issues, please report them with proper logs
 
 Credits:
-@someone5678
-@33bca
-@Woomymy
-for their work on A14 Dolby bringup
+@kamikaonashi
+@1xtash
 
 EDIT:
 Apparently some users pointed out that this is silimar to HELLBOY017's implementation
